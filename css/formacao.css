@@ -154,6 +154,15 @@
         gap: 40px;
     }
 
+    .formacao-container::after {
+        position: relative;
+        width: 100px;
+        height: 80px;
+        left: -20px;
+        top: 100px;
+        background-size: contain;
+    }
+
     .formacao .subtitulo {
         color: #ffffff;
     }
